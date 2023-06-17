@@ -1,0 +1,8 @@
+# .NET build folders
+bin/
+obj/
+.idea/
+.run
+.vs/
+coverage/
+coverage.cobertura.xml

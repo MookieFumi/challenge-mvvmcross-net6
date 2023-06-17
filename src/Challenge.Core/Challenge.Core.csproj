@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <UserSecretsId>f49ba39c-d7a7-4d3d-b168-c525624ea919</UserSecretsId>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="MvvmCross" Version="9.0.9" />
+        <PackageReference Include="Serilog" Version="3.0.0-dev-02022" />
+        <PackageReference Include="Acr.UserDialogs" Version="8.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Challenge.Services\Challenge.Services.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Services\" />
+      <None Remove="ViewModels\Base\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Services\" />
+      <Folder Include="Services\" />
+      <Folder Include="ViewModels\Base\" />
+    </ItemGroup>
+</Project>

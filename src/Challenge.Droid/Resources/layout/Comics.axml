@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:local="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionSearch" 
+        android:inputType="text"
+        android:hint="Search your comic here"
+        local:MvxBind="SearchCommand SearchComicCommand; Text Filter"/>
+    <MvvmCross.Platforms.Android.Binding.Views.MvxListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            local:MvxItemTemplate="@layout/comiccardview"
+            local:MvxBind="ItemsSource Comics; ItemClick NavigateToDetailCommand"/>
+</LinearLayout>

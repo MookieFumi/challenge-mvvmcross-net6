@@ -1,0 +1,14 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="wrap_content" local:cardElevation="10dp" local:cardCornerRadius="20dp" android:layout_margin="10dp" local:cardBackgroundColor="#FFFFFF" local:cardMaxElevation="12dp" local:cardPreventCornerOverlap="true" local:cardUseCompatPadding="true">
+
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+
+        <ImageView android:layout_width="120dp" android:layout_height="120dp" android:layout_gravity="center" android:src="@drawable/monkey" local:MvxBind="Text Title" android:id="@+id/img" android:contentDescription="monkey"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:orientation="vertical">
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:textColor="#000000" local:MvxBind="Text Title" android:layout_gravity="top" android:textSize="16sp" android:textStyle="bold" tools:text="Comic title example"/>
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:textColor="#fa8072" local:MvxBind="Text Upc" android:layout_gravity="bottom" android:textSize="12sp" android:textStyle="bold" tools:text="Upc: 75960608839302811"/>
+            <TextView android:layout_width="match_parent" android:layout_height="match_parent" android:textColor="#C0C0C0" local:MvxBind="Text Creators.Summary" android:layout_gravity="bottom" android:textSize="14sp" android:textStyle="bold" tools:text="Authors: Miguel Angel Martin Herández"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
