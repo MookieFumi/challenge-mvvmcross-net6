@@ -1,6 +1,6 @@
-﻿using MvvmCross.Platforms.Ios.Core;
-using Challenge.Core;
+﻿using Challenge.Core;
 using Microsoft.Extensions.Logging;
+using MvvmCross.Platforms.Ios.Core;
 using Serilog;
 using Serilog.Extensions.Logging;
 

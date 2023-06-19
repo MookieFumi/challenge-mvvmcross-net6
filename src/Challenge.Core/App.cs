@@ -9,8 +9,8 @@ namespace Challenge.Core
 {
     public class App : MvxApplication
     {
-        private const string ApiPrivateKey = "xxx";
-        private const string ApiPublicKey = "yyy";
+        private const string ApiPrivateKey = "20aed5b965e7641cde0af5570c199d75ac3ff485";
+        private const string ApiPublicKey = "b3f61a5518e29a79066583c1989557e2";
 
         public override void Initialize()
         {
