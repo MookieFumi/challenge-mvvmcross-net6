@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup>
+		<TargetFramework>net6.0-ios</TargetFramework>
+		<AssemblyName>Challenge.iOS</AssemblyName>
+		<RootNamespace>Challenge.iOS</RootNamespace>
+		<RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>
+		<OutputType>Exe</OutputType>
+		<SupportedOSPlatformVersion>15.0</SupportedOSPlatformVersion>
+		<UseMauiEssentials>true</UseMauiEssentials>
+	</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+  <CreatePackage>false</CreatePackage>
+  <WarningLevel>4</WarningLevel>
+  <CodesignProvision></CodesignProvision>
+  <CodesignKey>iPhone Developer</CodesignKey>
+  <MtouchDebug>true</MtouchDebug>
+</PropertyGroup>
+<PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  <CreatePackage>false</CreatePackage>
+</PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="MvvmCross" Version="9.0.9" />
+        <PackageReference Include="Serilog.Sinks.Xamarin" Version="1.0.0" />
+        <PackageReference Include="Serilog.Extensions.Logging" Version="3.1.0" />
+        <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
+        <PackageReference Include="Acr.UserDialogs" Version="8.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Challenge.Core\Challenge.Core.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <InterfaceDefinition Remove="LaunchScreen.storyboard" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Views\" />
+    </ItemGroup>
+</Project>

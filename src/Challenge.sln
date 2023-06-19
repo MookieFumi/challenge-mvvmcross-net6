@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Info", "Info", "{8DE1B679-A
 		..\CODECOVERAGE.md = ..\CODECOVERAGE.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.iOS", "Challenge.iOS\Challenge.iOS.csproj", "{27147552-16AA-4008-8B31-5544729685A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,6 +116,22 @@ Global
 		{C69D9242-432D-4C83-9A29-32C8E25BA835}.Release|x64.Build.0 = Release|Any CPU
 		{C69D9242-432D-4C83-9A29-32C8E25BA835}.Release|x86.ActiveCfg = Release|Any CPU
 		{C69D9242-432D-4C83-9A29-32C8E25BA835}.Release|x86.Build.0 = Release|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Debug|ARM.Build.0 = Debug|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Debug|x64.Build.0 = Debug|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Debug|x86.Build.0 = Debug|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Release|ARM.ActiveCfg = Release|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Release|ARM.Build.0 = Release|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Release|x64.ActiveCfg = Release|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Release|x64.Build.0 = Release|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Release|x86.ActiveCfg = Release|Any CPU
+		{27147552-16AA-4008-8B31-5544729685A5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
